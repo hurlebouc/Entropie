@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4D6EB82160470C600696FE1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB81160470C600696FE1 /* main.c */; };
+		B4D6EB84160470C600696FE1 /* Entropie.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4D6EB83160470C600696FE1 /* Entropie.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4D6EB7B160470C500696FE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B4D6EB84160470C600696FE1 /* Entropie.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4D6EB7D160470C600696FE1 /* Entropie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Entropie; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D6EB81160470C600696FE1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B4D6EB83160470C600696FE1 /* Entropie.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Entropie.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4D6EB7A160470C500696FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4D6EB72160470C500696FE1 = {
+			isa = PBXGroup;
+			children = (
+				B4D6EB80160470C600696FE1 /* Entropie */,
+				B4D6EB7E160470C600696FE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4D6EB7E160470C600696FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6EB7D160470C600696FE1 /* Entropie */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D6EB80160470C600696FE1 /* Entropie */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6EB81160470C600696FE1 /* main.c */,
+				B4D6EB83160470C600696FE1 /* Entropie.1 */,
+			);
+			path = Entropie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4D6EB7C160470C500696FE1 /* Entropie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D6EB87160470C600696FE1 /* Build configuration list for PBXNativeTarget "Entropie" */;
+			buildPhases = (
+				B4D6EB79160470C500696FE1 /* Sources */,
+				B4D6EB7A160470C500696FE1 /* Frameworks */,
+				B4D6EB7B160470C500696FE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Entropie;
+			productName = Entropie;
+			productReference = B4D6EB7D160470C600696FE1 /* Entropie */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4D6EB74160470C500696FE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Hubert;
+			};
+			buildConfigurationList = B4D6EB77160470C500696FE1 /* Build configuration list for PBXProject "Entropie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4D6EB72160470C500696FE1;
+			productRefGroup = B4D6EB7E160470C600696FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4D6EB7C160470C500696FE1 /* Entropie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4D6EB79160470C500696FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D6EB82160470C600696FE1 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4D6EB85160470C600696FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B4D6EB86160470C600696FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B4D6EB88160470C600696FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4D6EB89160470C600696FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4D6EB77160470C500696FE1 /* Build configuration list for PBXProject "Entropie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D6EB85160470C600696FE1 /* Debug */,
+				B4D6EB86160470C600696FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D6EB87160470C600696FE1 /* Build configuration list for PBXNativeTarget "Entropie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D6EB88160470C600696FE1 /* Debug */,
+				B4D6EB89160470C600696FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4D6EB74160470C500696FE1 /* Project object */;
+}
