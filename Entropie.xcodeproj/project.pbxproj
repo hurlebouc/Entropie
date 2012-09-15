@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		B4D6EB82160470C600696FE1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB81160470C600696FE1 /* main.c */; };
 		B4D6EB84160470C600696FE1 /* Entropie.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4D6EB83160470C600696FE1 /* Entropie.1 */; };
+		B4D6EBA21604B39100696FE1 /* Arbre.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB971604B39100696FE1 /* Arbre.c */; };
+		B4D6EBA31604B39100696FE1 /* ArrayList.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB981604B39100696FE1 /* ArrayList.c */; };
+		B4D6EBA41604B39100696FE1 /* BWT.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB991604B39100696FE1 /* BWT.c */; };
+		B4D6EBA51604B39100696FE1 /* Compression.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB9A1604B39100696FE1 /* Compression.c */; };
+		B4D6EBA61604B39100696FE1 /* Fichier.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB9B1604B39100696FE1 /* Fichier.c */; };
+		B4D6EBA71604B39100696FE1 /* Huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB9C1604B39100696FE1 /* Huffman.c */; };
+		B4D6EBA81604B39100696FE1 /* MTF.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB9D1604B39100696FE1 /* MTF.c */; };
+		B4D6EBA91604B39100696FE1 /* Semaphore.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB9E1604B39100696FE1 /* Semaphore.c */; };
+		B4D6EBAA1604B39100696FE1 /* TabCirc.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EB9F1604B39100696FE1 /* TabCirc.c */; };
+		B4D6EBAB1604B39100696FE1 /* Tableau.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EBA01604B39100696FE1 /* Tableau.c */; };
+		B4D6EBAC1604B39100696FE1 /* utilitaires.c in Sources */ = {isa = PBXBuildFile; fileRef = B4D6EBA11604B39100696FE1 /* utilitaires.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +39,32 @@
 		B4D6EB7D160470C600696FE1 /* Entropie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Entropie; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D6EB81160470C600696FE1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B4D6EB83160470C600696FE1 /* Entropie.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Entropie.1; sourceTree = "<group>"; };
+		B4D6EB8C1604B37B00696FE1 /* Arbre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbre.h; sourceTree = "<group>"; };
+		B4D6EB8D1604B37B00696FE1 /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
+		B4D6EB8E1604B37B00696FE1 /* BWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWT.h; sourceTree = "<group>"; };
+		B4D6EB8F1604B37B00696FE1 /* Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compression.h; sourceTree = "<group>"; };
+		B4D6EB901604B37B00696FE1 /* Fichier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fichier.h; sourceTree = "<group>"; };
+		B4D6EB911604B37B00696FE1 /* Huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Huffman.h; sourceTree = "<group>"; };
+		B4D6EB921604B37B00696FE1 /* MTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTF.h; sourceTree = "<group>"; };
+		B4D6EB931604B37B00696FE1 /* Semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semaphore.h; sourceTree = "<group>"; };
+		B4D6EB941604B37B00696FE1 /* TabCirc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabCirc.h; sourceTree = "<group>"; };
+		B4D6EB951604B37B00696FE1 /* Tableau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableau.h; sourceTree = "<group>"; };
+		B4D6EB961604B37B00696FE1 /* utilitaires.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilitaires.h; sourceTree = "<group>"; };
+		B4D6EB971604B39100696FE1 /* Arbre.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Arbre.c; sourceTree = "<group>"; };
+		B4D6EB981604B39100696FE1 /* ArrayList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArrayList.c; sourceTree = "<group>"; };
+		B4D6EB991604B39100696FE1 /* BWT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BWT.c; sourceTree = "<group>"; };
+		B4D6EB9A1604B39100696FE1 /* Compression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Compression.c; sourceTree = "<group>"; };
+		B4D6EB9B1604B39100696FE1 /* Fichier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Fichier.c; sourceTree = "<group>"; };
+		B4D6EB9C1604B39100696FE1 /* Huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Huffman.c; sourceTree = "<group>"; };
+		B4D6EB9D1604B39100696FE1 /* MTF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MTF.c; sourceTree = "<group>"; };
+		B4D6EB9E1604B39100696FE1 /* Semaphore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Semaphore.c; sourceTree = "<group>"; };
+		B4D6EB9F1604B39100696FE1 /* TabCirc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TabCirc.c; sourceTree = "<group>"; };
+		B4D6EBA01604B39100696FE1 /* Tableau.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tableau.c; sourceTree = "<group>"; };
+		B4D6EBA11604B39100696FE1 /* utilitaires.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utilitaires.c; sourceTree = "<group>"; };
+		B4D6EBB31604BC8F00696FE1 /* BWTTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BWTTest.c; path = tests/BWTTest.c; sourceTree = "<group>"; };
+		B4D6EBB41604BC8F00696FE1 /* CompressionTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = CompressionTest.c; path = tests/CompressionTest.c; sourceTree = "<group>"; };
+		B4D6EBB51604BC8F00696FE1 /* HuffmanTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = HuffmanTest.c; path = tests/HuffmanTest.c; sourceTree = "<group>"; };
+		B4D6EBB61604BC8F00696FE1 /* MTFTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = MTFTest.c; path = tests/MTFTest.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +97,60 @@
 		B4D6EB80160470C600696FE1 /* Entropie */ = {
 			isa = PBXGroup;
 			children = (
+				B4D6EBB21604BC6900696FE1 /* tests */,
+				B4D6EB8A1604B34A00696FE1 /* headers */,
+				B4D6EB8B1604B35300696FE1 /* sources */,
 				B4D6EB81160470C600696FE1 /* main.c */,
 				B4D6EB83160470C600696FE1 /* Entropie.1 */,
 			);
 			path = Entropie;
+			sourceTree = "<group>";
+		};
+		B4D6EB8A1604B34A00696FE1 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6EB8C1604B37B00696FE1 /* Arbre.h */,
+				B4D6EB8D1604B37B00696FE1 /* ArrayList.h */,
+				B4D6EB8E1604B37B00696FE1 /* BWT.h */,
+				B4D6EB8F1604B37B00696FE1 /* Compression.h */,
+				B4D6EB901604B37B00696FE1 /* Fichier.h */,
+				B4D6EB911604B37B00696FE1 /* Huffman.h */,
+				B4D6EB921604B37B00696FE1 /* MTF.h */,
+				B4D6EB931604B37B00696FE1 /* Semaphore.h */,
+				B4D6EB941604B37B00696FE1 /* TabCirc.h */,
+				B4D6EB951604B37B00696FE1 /* Tableau.h */,
+				B4D6EB961604B37B00696FE1 /* utilitaires.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		B4D6EB8B1604B35300696FE1 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6EB971604B39100696FE1 /* Arbre.c */,
+				B4D6EB981604B39100696FE1 /* ArrayList.c */,
+				B4D6EB991604B39100696FE1 /* BWT.c */,
+				B4D6EB9A1604B39100696FE1 /* Compression.c */,
+				B4D6EB9B1604B39100696FE1 /* Fichier.c */,
+				B4D6EB9C1604B39100696FE1 /* Huffman.c */,
+				B4D6EB9D1604B39100696FE1 /* MTF.c */,
+				B4D6EB9E1604B39100696FE1 /* Semaphore.c */,
+				B4D6EB9F1604B39100696FE1 /* TabCirc.c */,
+				B4D6EBA01604B39100696FE1 /* Tableau.c */,
+				B4D6EBA11604B39100696FE1 /* utilitaires.c */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+		B4D6EBB21604BC6900696FE1 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6EBB31604BC8F00696FE1 /* BWTTest.c */,
+				B4D6EBB41604BC8F00696FE1 /* CompressionTest.c */,
+				B4D6EBB51604BC8F00696FE1 /* HuffmanTest.c */,
+				B4D6EBB61604BC8F00696FE1 /* MTFTest.c */,
+			);
+			name = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +180,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0440;
-				ORGANIZATIONNAME = Hubert;
+				ORGANIZATIONNAME = hurlebouc;
 			};
 			buildConfigurationList = B4D6EB77160470C500696FE1 /* Build configuration list for PBXProject "Entropie" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -118,6 +205,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4D6EB82160470C600696FE1 /* main.c in Sources */,
+				B4D6EBA21604B39100696FE1 /* Arbre.c in Sources */,
+				B4D6EBA31604B39100696FE1 /* ArrayList.c in Sources */,
+				B4D6EBA41604B39100696FE1 /* BWT.c in Sources */,
+				B4D6EBA51604B39100696FE1 /* Compression.c in Sources */,
+				B4D6EBA61604B39100696FE1 /* Fichier.c in Sources */,
+				B4D6EBA71604B39100696FE1 /* Huffman.c in Sources */,
+				B4D6EBA81604B39100696FE1 /* MTF.c in Sources */,
+				B4D6EBA91604B39100696FE1 /* Semaphore.c in Sources */,
+				B4D6EBAA1604B39100696FE1 /* TabCirc.c in Sources */,
+				B4D6EBAB1604B39100696FE1 /* Tableau.c in Sources */,
+				B4D6EBAC1604B39100696FE1 /* utilitaires.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +304,7 @@
 				B4D6EB89160470C600696FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
